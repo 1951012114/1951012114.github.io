@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+	
+.image{
+	height: 200px;
+	width: 100px;
+	background-color: aqua;
+	position: relative;
+	
+}
+.image img{
+	height: 200px;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 0px #000000;
+}
+.text{
+color: #C2E1FD;
+font-size: 16px;
+font-weight: bold;
+font-family: Arial;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,100%)
+}
+.image :hover .text,
+.image :active .text{
+	transform: translate(-50%,-50%)
+}
